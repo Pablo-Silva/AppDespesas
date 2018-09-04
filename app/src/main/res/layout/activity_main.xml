@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTransporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Valor Transporte"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/editAlimentacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Valor Alimentação"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/editVestuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Valor Vestuario"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/editSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Seu Sálario"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3ba7e1"
+        android:text="Calcular Despesas"
+        android:onClick="calcularDespesas"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTransporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transporte:" />
+
+    <TextView
+        android:id="@+id/textViewAlimentacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alimentação:" />
+
+    <TextView
+        android:id="@+id/textViewVestuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vestuario:" />
+
+    <TextView
+        android:id="@+id/textViewTotal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total:" />
+
+    <TextView
+        android:id="@+id/textViewTotal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Em %:" />
+
+    <TextView
+        android:id="@+id/textViewSaldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saldo:" />
+
+</LinearLayout>
